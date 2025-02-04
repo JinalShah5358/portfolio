@@ -20,10 +20,11 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name} 👋`}
               />
+              <br />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -210,9 +211,10 @@ export default function Page() {
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
                 >
                   with a direct question on twitter
-                </Link>{" "}
+                </Link>
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
               </p>
