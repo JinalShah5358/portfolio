@@ -17,12 +17,15 @@ export const DATA = {
     "Node.js",
     "MongoDB",
     "Express",
-    "Next.js",
+    // "Next.js",
+    "TailwindCSS",
+    "MUI",
     "Typescript",
     "MYSQL",
     "Postgres",
     "Git",
     "Github",
+    "Postman",
     "PHP",
     "Wordpress",
   ],
@@ -63,7 +66,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "jinalshah5358@gmail.com",
+        url: "mailto:jinalshah5358@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -78,7 +81,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Sr. Software Developer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/zendevx.png",
       start: "May 2022",
       end: "Present",
       description:
@@ -223,6 +226,71 @@ export const DATA = {
       image: "",
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+  ],
+  projects_Company: [
+    {
+      title: "Trakerly",
+      href: "",
+      // dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Trackerly, an application designed for tracking employee tasks and providing detailed statistics on project estimations. The tool efficiently monitors task progress, enhances project management, and offers insightful data to optimize project timelines and resource allocation.",
+      technologies: [
+     
+      ],
+      links: [
+      
+      ],
+      image: "/cp3.png",
+      video: "",
+    },
+    {
+      title: "ERP for Valve",
+      href: "",
+      // dates: "June 2023 - Present",
+      active: true,
+      description:
+        "an ERP system for a valve production company, designed to streamline and optimize the entire process from inquiry management to dispatch. This integrated solution enables efficient tracking, enhances operational workflows, and ensures seamless coordination across various stages of production and delivery.",
+      technologies: [],
+      links: [
+       
+      ],
+      image: "/cp2.png",
+      video: "",
+    },
+    {
+      title: "CRM for Electrical",
+      href: "https://pizza-app-wheat-delta.vercel.app/",
+      dates: "April 2023 - September 2023",
+      active: true,
+      description:
+        " a CRM system for an electrical contractor to track inquiries, quotations, purchase orders (POs), and dispatches. This solution streamlined workflows and improved efficiency in managing customer interactions and project tasks.",
+      technologies: [
+
+      ],
+      links: [
+  
+      ],
+      image: "/cp1.png",
+      video: "",
+    },
+    {
+      title: "ERP for Brass Manufacture",
+      href: "https://automatic.chat",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        " an ERP system for a brass manufacturing company to track production processes, maintain stock, and generate statistical reports on store inventory. This system enhanced operational efficiency and inventory management.",
+      technologies: [
+ 
+      ],
+      links: [
+       
+      ],
+      image: "/cp4.png",
+      video:
+        "",
     },
   ],
   hackathons: [],

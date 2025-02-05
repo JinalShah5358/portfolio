@@ -12,18 +12,18 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 interface Props {
-  title: string;
+  title?: string;
   href?: string;
-  description: string;
+  description?: string;
   dates?: string;
-  tags: readonly string[];
+  tags?: readonly string[];
   link?: string;
   image?: string;
   video?: string;
   links?: readonly {
-    icon: React.ReactNode;
-    type: string;
-    href: string;
+    icon?: React.ReactNode;
+    type?: string;
+    href?: string;
   }[];
   className?: string;
 }
