@@ -161,37 +161,38 @@ export default function Page() {
                   Company Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Things that I made 
+                  Projects That I Made
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Throughout the years, I developed several impactful projects, including an ERP system for managing valve lifecycles and a CRM tool for tracking leads and enquiries. I also created a Work Tracking App to monitor employee participation in projects, improving transparency and accountability. 
-                These projects enhanced operational efficiency and allowed me to strengthen my development and project management skills.
+                  Over the years, I developed impactful projects, including an
+                  ERP system for valve lifecycle management, a CRM tool for lead
+                  tracking, and a Work Tracking App to monitor employee project
+                  participation, enhancing operational efficiency and
+                  strengthening my development and project management skills.
                 </p>
-                
               </div>
-              
             </div>
           </BlurFade>
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects_Company.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project?.href}
-                  key={project?.title}
-                  title={project?.title}
-                  description={project?.description}
-                  tags={project?.technologies}
-                  image={project?.image}
-                  video={project?.video}
-                  links={project?.links}
-                />
-              </BlurFade>
-            ))}
-          </div>
+          {DATA.projects_Company.map((project, id) => (
+            <BlurFade
+              key={project.title}
+              delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+            >
+              <ProjectCard
+                href={project?.href}
+                key={project?.title}
+                title={project?.title}
+                description={project?.description}
+                tags={project?.technologies}
+                image={project?.image}
+                video={project?.video}
+                links={project?.links}
+              />
+            </BlurFade>
+          ))}
+        </div>
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full ">
@@ -203,7 +204,6 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
-         
             </div>
           </BlurFade>
         </div>
