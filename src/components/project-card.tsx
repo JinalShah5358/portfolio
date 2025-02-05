@@ -12,7 +12,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 interface Props {
-  title?: string;
+  title?: string | undefined;
   href?: string;
   description?: string;
   dates?: string;
@@ -63,7 +63,7 @@ export function ProjectCard({
         {image && (
           <Image
             src={image}
-            alt={title}
+            alt={title || "Project image"}
             width={500}
             height={300}
             className="h-40 w-full overflow-hidden object-cover object-top"
@@ -101,7 +101,7 @@ export function ProjectCard({
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (
-              <Link href={link?.href} key={idx} target="_blank">
+              <Link href={link?.href || "/"} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
                   {link.icon}
                   {link.type}
