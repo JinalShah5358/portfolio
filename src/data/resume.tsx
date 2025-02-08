@@ -8,7 +8,7 @@ export const DATA = {
   location: "Gujarat ,India",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Developer Passionate about building custom ERP and CRM solutions that optimize business processes.",
+    "Full-Stack Developer crafting elegant solutions that inspire and deliver value.",
   summary:
     "I am a Senior Software Developer with three years of experience specializing in the MERN stack. I have a strong background in designing and developing custom software solutions, including ERP and CRM systems, tailored to meet business needs. In addition to development, I actively engage with clients to gather requirements, ensuring that the software aligns with their specific needs. With a deep understanding of full-stack development, I focus on building scalable, efficient, and user-friendly applications that optimize business processes.",
   avatarUrl: "/me.png",
