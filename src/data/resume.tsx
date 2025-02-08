@@ -174,7 +174,7 @@ export const DATA = {
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "WorldWise is a sophisticated tracking application that maps and records visited places throughout the year, providing a seamless and interactive travel log.",
+        "Developed a comprehensive Pizza ordering and tracking application, allowing users to place orders effortlessly and track their delivery status in real-time. The application enhances user experience with a seamless interface, ensuring efficient order management and timely updates.",
       technologies: [
         "React.js",
         "React-Redux",
