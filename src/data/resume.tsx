@@ -105,14 +105,14 @@ export const DATA = {
       start: "2019",
       end: "2022",
     },
-    {
-      school: "Hiramani Schools",
-      href: "https://www.hiramanischools.org/",
-      degree: "GSEB",
-      logoUrl: "/school.png",
-      start: "2018",
-      end: "2019",
-    },
+    // {
+    //   school: "Hiramani Schools",
+    //   href: "https://www.hiramanischools.org/",
+    //   degree: "GSEB",
+    //   logoUrl: "/school.png",
+    //   start: "2018",
+    //   end: "2019",
+    // },
   ],
   projects: [
     {
