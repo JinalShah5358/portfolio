@@ -85,7 +85,7 @@ export const DATA = {
       start: "May 2022",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "I’m working as a Senior Software Developer at ZenDevX , Specializing in designing and implementing enterprise solutions tailored to customer needs. My role included close collaboration with clients to deliver customized software that enhanced their business operations",
     },
   ],
   education: [
