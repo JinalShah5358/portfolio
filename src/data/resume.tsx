@@ -237,7 +237,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "ERP for Valve",
+      title: "ERP for Valve Manufacturer",
       href: "",
       // dates: "June 2023 - Present",
       active: true,
@@ -249,7 +249,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "CRM for Electrical",
+      title: "CRM for Electrical Contractor",
       href: "https://pizza-app-wheat-delta.vercel.app/",
       dates: "April 2023 - September 2023",
       active: true,
