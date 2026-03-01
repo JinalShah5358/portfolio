@@ -28,6 +28,10 @@ export const DATA = {
     "Postman",
     "PHP",
     "Wordpress",
+    "docker",
+    "dotnet",
+    "C#",
+    "rabbitmq",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -73,19 +77,42 @@ export const DATA = {
       },
     },
   },
-
   work: [
+    {
+      company: "Neminath Technologies LLP",
+      href: "https://neminathtechnologies.com/",
+      badges: [],
+      location: "on-site",
+      title: "Sr. Software Developer",
+      logoUrl: "/neminath_technologies_logo.jpg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "I’m currently working at Neminath Technologies as a Senior Software Developer, where I design and develop business-focused software solutions including accounting, auditing, and other customized enterprise applications. I work closely with clients to understand their requirements and build scalable, efficient systems that streamline operations and improve overall productivity.",
+    },
     {
       company: "ZenDevX Solutions Pvt. Ltd.",
       href: "https://www.zendevx.com/",
       badges: [],
-      location: "Remote",
+      location: "on-site",
       title: "Sr. Software Developer",
       logoUrl: "/zendevx.png",
-      start: "May 2022",
-      end: "Present",
+      start: "May 2023",
+      end: "april 2025",
       description:
         "I’m working as a Senior Software Developer at ZenDevX , Specializing in designing and implementing enterprise solutions tailored to customer needs. My role included close collaboration with clients to deliver customized software that enhanced their business operations",
+    },
+    {
+      company: "ZenDevX Solutions Pvt. Ltd.",
+      href: "https://www.zendevx.com/",
+      badges: [],
+      location: "on-site",
+      title: "jr. Software Developer",
+      logoUrl: "/zendevx.png",
+      start: "May 2022",
+      end: "april 2023",
+      description:
+        "Junior Software Developer at ZenDevX, specializing in enterprise solutions. I collaborate with clients and senior engineers to develop customized software that drives business efficiency and operational success.",
     },
   ],
   education: [
@@ -275,3 +302,4 @@ export const DATA = {
   ],
   hackathons: [],
 } as const;
+
